@@ -38,6 +38,7 @@ Basic_imple_of_Encoder_for_HHWD/   # Workable encoder implementation on HHWD dat
 🤩 On the test set, the KL divergence between the predicted distribution and the real distribution is only **0.08**, achieving excellent performance.
 It shows that the standalone encoder performs well for coarse-grained classification prediction on the HHWD dataset.
 
+<img width="476" height="295" alt="Result Eval" src="https://github.com/user-attachments/assets/9e4d8f17-2cf0-4b05-87bd-e127375d41ce" />
 ---
 
 ## Quick Start
@@ -48,18 +49,21 @@ Run the training script, and the model weights and prototypes will be saved to t
 ```bash
 python Basic_imple_of_Encoder_for_HHWD\src\train_encoder.py
 ```
+<img width="1399" height="580" alt="image" src="https://github.com/user-attachments/assets/84025f21-3f46-4008-b733-3eafab2ee187" />
 
 ### 2. Model Evaluation
 Evaluate model metrics (accuracy, KL divergence, MAE) on the test set
 ```bash
 python Basic_imple_of_Encoder_for_HHWD\src\evaluate_encoder.py
 ```
+<img width="932" height="613" alt="image" src="https://github.com/user-attachments/assets/fad06e3a-4034-4f5e-8b5e-7d4399d1f75d" />
 
 ### 3. Interactive Prediction
 Launch the command-line interactive prediction tool for custom input testing
 ```bash
 python Basic_imple_of_Encoder_for_HHWD\src\interactive_predict.py
 ```
+<img width="1873" height="928" alt="image" src="https://github.com/user-attachments/assets/9165ebb8-c82d-429e-9357-32b83fe52369" />
 
 #### Input Instructions
 - **Required**: Input meteorological description texts of the past 24 hours
