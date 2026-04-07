@@ -15,7 +15,7 @@ The model is trained and evaluated on the public dataset **Historical Hourly Wea
 
 ### Project Structure
 ```text
-Basic_imple_of_Encoder_for_HHWD/   # Workable encoder implementation on HHWD dataset
+Imple_of_TimeXL_Prototyped-based_Encoder/   # Workable encoder implementation on HHWD dataset
 ├── data/                          # Scripts for data loading and preprocessing
 │   ├── historical-hourly-weather-data/  # Raw CSV datasets
 │   ├── processed_data/            # Processed PyTorch tensors (.pt)
@@ -78,12 +78,12 @@ The program will output prediction results and explanations (text sequences corr
 
 ---
 
-## Future Work: TimeXL(not_finished)
+## Future Work: TimeXL(core_components)
 In addition to the usable encoder demo above, I have implemented the core components of the complete TimeXL framework following the original paper for reference by subsequent developers.
 
 ```text
-TimeXL_implementation(not_finished)/ # Work-in-progress full implementation of Algorithm 1 in the paper
-├── Algorithm_1(not_finished).py   # Main iterative optimization loop
+TimeXL(core_components)/ # Work-in-progress full implementation of Algorithm 1 in the paper
+├── Algorithm_1(not_finished_yet).py   # Main iterative optimization loop
 ├── encoders.py                    # Time and text encoders
 ├── llm_agents.py                  # LLM interaction agents
 ├── losses.py                      # Loss functions
