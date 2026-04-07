@@ -15,7 +15,7 @@ The model is trained and evaluated on the public dataset **Historical Hourly Wea
 
 ### Project Structure
 ```text
-Imple_of_TimeXL_Prototyped-based_Encoder/   # Workable encoder implementation on HHWD dataset
+Demo_of_TimeXL_Prototyped-based_Encoder/   # Workable encoder implementation on HHWD dataset
 ├── data/                          # Scripts for data loading and preprocessing
 │   ├── historical-hourly-weather-data/  # Raw CSV datasets
 │   ├── processed_data/            # Processed PyTorch tensors (.pt)
