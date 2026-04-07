@@ -1,5 +1,5 @@
 # TimeXL
-(Based on the idea of the NeurIPS 2025 paper: *Explainable Multimodal Time Series Prediction with LLM-in-the-Loop*, hereinafter referred to as the original paper)
+(Based on the idea of the NeurIPS 2025 paper: *Explainable Multimodal Time Series Prediction with LLM-in-the-Loop* (https://arxiv.org/abs/2503.01013), hereinafter referred to as the original paper)
 
 🤩Paper Notes (My Reading Summary)：https://www.yuque.com/yanhuang-tbwbz/qgug21/zo7kbzq4lvryug2s?singleDoc# 《TimeXL Note》
 
